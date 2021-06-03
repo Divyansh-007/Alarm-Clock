@@ -1,0 +1,55 @@
+/* body */
+
+body{
+    background: #00C9FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* main container */
+
+#main_container{
+    border: 1rem solid #1bafa9;
+    border-radius: 4rem;
+    margin: 2% 5%;
+    width: auto;
+    height: 86vh;
+}
+
+/* current time */
+
+#current_time{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 4rem;
+    font-family: cursive;
+    color: white;
+}
+
+/* alarm setter */
+
+#alarm_container{
+    margin: -2% 36%;
+    width: auto;
+}
+
+#alarm_container #hours_menu, #mins_menu, #secs_menu, #meridian_menu{
+    font-size: 1.25rem;
+    border: none;
+}
+
+#alarm_container #set_alarm{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background: white;
+    color: cornflowerblue;
+}
+
+#alarm_container #set_alarm:hover{
+    color: white;
+    background: linear-gradient(to right, #373B44, #4286f4);
+}

@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png">
     <title>Alarm Clock</title>
 </head>
 <body>
-    <h2>Time</h2>
+    <!-- main container -->
+    <div id="main_container">
+        <!-- current time -->
+        <h2 id="current_time"></h2>
+
+        <!-- alarm setting container -->
+        <div id="alarm_container">
+        <!-- set alarm inputs -->
+            <select name="hours" id="hours_menu"></select>
+            <select name="mins" id="mins_menu"></select>
+            <select name="secs" id="secs_menu"></select>
+            <select name="meridian" id="meridian_menu">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+
+            <!-- set alarm button -->
+            <button id="set_alarm">Set Alarm</button>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
