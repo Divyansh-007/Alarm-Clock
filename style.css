@@ -29,8 +29,19 @@ body{
 /* alarm setter */
 
 #alarm_container{
-    margin: -2% 36%;
+    margin: -2% 25%;
     width: auto;
+}
+
+#alarm_container #alarm_label{
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 2rem;
+    text-indent: 10px;
+}
+
+#alarm_container #alarm_label:focus{
+    outline: none;
 }
 
 #alarm_container #hours_menu, #mins_menu, #secs_menu, #meridian_menu{
