@@ -24,11 +24,22 @@ body{
     color: white;
 }
 
-/* alarm setter */
+@media screen and (max-width:550px) {
+    #current_time{
+        font-size: 2.5rem;
+    }   
+}
 
+/* alarm setter */
 #alarm_container{
     margin: -2% 20%;
     width: auto;
+}
+
+@media screen and (max-width: 770px) {
+    #alarm_container{
+        margin: -2% 5%;
+    }   
 }
 
 #alarm_container #alarm_label{
@@ -39,6 +50,12 @@ body{
     border-radius: 2rem;
 }
 
+@media screen and (max-width: 770px) {
+    #alarm_container #alarm_label{
+        padding: 0px;
+    }   
+}
+
 #alarm_container #alarm_label:focus{
     outline: none;
 }
@@ -47,6 +64,12 @@ body{
     border: none;
     padding: 10px;
     font-size: 1.25rem;
+}
+
+@media screen and (max-width: 770px) {
+    #alarm_container #hours_menu, #mins_menu, #secs_menu, #meridian_menu{
+        padding: 0px;
+    }   
 }
 
 #alarm_container #set_alarm{
@@ -77,12 +100,24 @@ body{
     background: linear-gradient(to right, #a1ffce, #faffd1);
 }
 
+@media screen and (max-width: 770px){
+    #alarms{
+        height: 16rem;
+    }   
+}
+
 #alarms_list .alarm_info{
     width: 55rem; 
     font-size: 1.25rem; 
     font-weight: bold; 
     font-family: cursive; 
     border-bottom: 1px solid #a9a0a0;
+}
+
+@media screen and (max-width:770px) {
+    #alarms_list .alarm_info{
+        font-size: 1rem;
+    }   
 }
 
 #alarms_list .del_btn{
@@ -92,6 +127,12 @@ body{
     font-size: 1.25rem; 
     text-align: center; 
     border-bottom: 1px solid #a9a0a0;
+}
+
+@media screen and (max-width:770px) {
+    #alarms_list .del_btn{
+        font-size: 1rem;
+    }   
 }
 
 /* customizing scrollbar */

@@ -155,7 +155,7 @@ function fireAlarms(){
 
     if(alarmsList.length != 0){
         let nextAlarm = alarmsList[0];
-        console.log(nextAlarm);
+        // console.log(nextAlarm);
 
         // matching current time and the alarm time
         setInterval(function(){
