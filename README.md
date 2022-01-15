@@ -1,6 +1,6 @@
 # Alarm Clock
 
-<b>Link</b>: https://divyansh-007.github.io/FrontendSkillTest1/
+<b>Link</b>:  https://divyansh-007.github.io/Alarm-Clock/
 
 A basic alarm clock application.
 
